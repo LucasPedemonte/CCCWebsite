@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Web.css">
+    <title>Collaborative Coding Club</title>
+</head>
+
+<!-- Temporary javascript here for now? -->
+<script>
+    function search() {
+        var input, li;
+        input = document.querySelector("input").value.toLowerCase();
+        li = document.querySelector("ul").getElementsByTagName("li");
+        
+        for (var i = 0; i < li.length; i++) {
+            var members = li[i].querySelector("span#Name");
+            if (members.textContent.toLowerCase().indexOf(input) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
+<body>
+    <header>
+        <h1>Collaborative Coding Club</h1>
+    </header>
+    <h2> List of members? </h2>
+    <input onkeyup="search()" placeholder="Search for members">
+    <ul>
+        <li>
+            <img src="" alt=" ">
+            <span id="Name">Shreyhan</br></span> 
+            <span id="Bio?">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!</br></span>
+            <span id="Contact">+1 (999) 999 - 9999 &emsp; blah@blah.blah</span>
+        </li>
+
+        <li>
+            <img src="" alt=" ">
+            <span id="Name">Lucas</br></span> 
+            <span id="Bio?">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!</br></span>
+            <span id="Contact">+1 (999) 999 - 9999 &emsp; blah@blah.blah</span>
+        </li>
+
+        <li>
+            <img src="" alt=" ">
+            <span id="Name">Cameron</br></span> 
+            <span id="Bio?">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!</br></span>
+            <span id="Contact">+1 (999) 999 - 9999 &emsp; blah@blah.blah</span>
+        </li>
+    </ul>
+</body>
