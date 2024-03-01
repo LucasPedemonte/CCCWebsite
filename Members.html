@@ -25,32 +25,97 @@
     }
 </script>
 
+<!-- Temporary css here for now :) -->
+<style>
+    body {
+        background-color: #21CB7A;
+    }
+    
+    #left {
+        background-color: rgba(0, 0, 0, 0.118);
+        position: fixed;
+        width: 50%;
+        float: left;
+        height: 80%;
+        z-index: 1010101010;
+    }
+
+    input {
+        background-color: rgba(34, 31, 31, 0.12);
+        border: none;
+        width: 75%;
+        height: 5%;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0%;
+    }
+    
+    li {
+        padding-block: 2.5%;
+        background-color: #21CB7A;
+    }
+    
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 75px;
+    }
+
+    .person > span {
+        text-align: center;
+        vertical-align: middle;
+        font-size: x-large;
+    }
+
+    #Bio, #Contact{
+        font-size: large;
+
+    }
+    
+    .person {
+        display: flex;
+        align-items:center;
+    }
+
+</style>
+
 <body>
     <header>
         <h1>Collaborative Coding Club</h1>
     </header>
-    <h2> List of members? </h2>
-    <input onkeyup="search()" placeholder="Search for members">
-    <ul>
-        <li>
-            <img src="" alt=" ">
-            <span id="Name">Shreyhan</br></span> 
-            <span id="Bio?">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!</br></span>
-            <span id="Contact">+1 (999) 999 - 9999 &emsp; blah@blah.blah</span>
-        </li>
+    <div id = "left">
+        <h2> List of members? </h2>
+        <input onkeyup="search()" placeholder="Search for members">
+        <ul>
+            <li>
+                <div class = "person">
+                    <img src="./Case_CS.png" alt=" ">
+                    <span id="Name">Shreyhan</br></span> 
+                </div>
+                <span id="Bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!</br></span>
+                <span id="Contact">+1 (999) 999 - 9999 &emsp; blah@blah.blah</span>
+            </li>
 
-        <li>
-            <img src="" alt=" ">
-            <span id="Name">Lucas</br></span> 
-            <span id="Bio?">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!</br></span>
-            <span id="Contact">+1 (999) 999 - 9999 &emsp; blah@blah.blah</span>
-        </li>
+            <li>
+                <div class = "person">
+                    <img src="./Case_CS.png" alt=" ">
+                    <span id="Name">Lucas</br></span> 
+                </div>
+                <span id="Bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!</br></span>
+                <span id="Contact">+1 (999) 999 - 9999 &emsp; blah@blah.blah</span>
+            </li>
 
-        <li>
-            <img src="" alt=" ">
-            <span id="Name">Cameron</br></span> 
-            <span id="Bio?">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!</br></span>
-            <span id="Contact">+1 (999) 999 - 9999 &emsp; blah@blah.blah</span>
-        </li>
-    </ul>
+            <li>
+                <div class = "person">
+                    <img src="./Case_CS.png" alt=" ">
+                    <span id="Name">Cameron</br></span> 
+                </div>
+                <span id="Bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!</br></span>
+                <span id="Contact">+1 (999) 999 - 9999 &emsp; blah@blah.blah</span>
+            </li>
+        </ul>
+    </div>
 </body>
