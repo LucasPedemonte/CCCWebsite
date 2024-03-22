@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Web.css">
     <title>Collaborative Coding Club</title>
 </head>
 
@@ -48,6 +47,15 @@
 <style>
     body {
         background-color: #21cb79d5;
+    }
+
+    #leftHead {
+        background-color: rgba(0, 0, 0, 0.118);
+        position: fixed;
+        width: 50%;
+        float: left;
+        height: 80%;
+        z-index: 1010101010;
     }
     
     #left {
@@ -103,11 +111,15 @@
     <header>
         <h1>Collaborative Coding Club</h1>
     </header>
-    <div id = "left">
-        <h2> List of members? </h2>
-        <input onkeyup="search()" placeholder="Search for members">
-        <ul id="memberList">
-            <!-- members show up here -->
-        </ul>
+    <div>
+        <div id="leftHead">
+            <h2> List of members? </h2>
+            <input onkeyup="search()" placeholder="Search for members">
+        </div>
+        <div id="left">
+            <ul id="memberList">
+                <!-- members show up here -->
+            </ul>
+        </div>
     </div>
 </body>
