@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Collaborative Coding Club</title>
+    <link rel="shortcut icon" href="./Case_CS.png" type="image/x-icon">
 </head>
 
 <!-- Temporary javascript here for now? -->
@@ -31,7 +32,6 @@
                 const li = document.createElement('li');
                 li.innerHTML = `
                     <div class="person">
-                        <img src="./Case_CS.png" alt="">
                         <span id="Name">${member.name}</span>
                     </div>
                     <span id="Bio">${member.bio}</br></span>
@@ -40,7 +40,10 @@
                 memberList.appendChild(li);
 
                 li.addEventListener('click', function() {
-                    document.getElementById('right').innerText = member.rightsidething;
+                    document.getElementById('right').innerHTML = `
+                    <img src="${member.picture}" alt="">
+                    <p>${member.rightsidething}</p>
+                    `;
                     document.getElementById('right').style.display = 'block';
                 });
             });
@@ -53,18 +56,9 @@
     body {
         background-color: #21cb79d5;
     }
-
-    #leftHead {
-        background-color: rgba(0, 0, 0, 0.118);
-        position: fixed;
-        width: 50%;
-        float: left;
-        height: 80%;
-        z-index: 1010101010;
-    }
     
     #left {
-        background-color: rgba(0, 0, 0, 0.118);
+        /* background-color: rgba(0, 0, 0, 0.118); */
         position: fixed;
         width: 45%;
         left: 1%;
@@ -75,7 +69,7 @@
 
     #right {
         display: none;
-        background-color: rgba(0, 0, 0, 0.118);
+        /* background-color: rgba(0, 0, 0, 0.118); */
         position: fixed;
         width: 45%;
         right: 1%;
