@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <style>
+        /* Add your custom styles here */
+        .loading-bar {
+            width: 100%;
+            height: 20px;
+            background-color: white;
+            border: 2px solid black;
+            margin-top: 20px; /* Adjusts the space between the text and the bar */
+        }
+        .loading-progress {
+            width: 0%;
+            height: 100%;
+            background-color: black;
+            transition: width 2s; /* Smooth transition for the loading effect */
+        }
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <div class="loading-bar">
+        <div class="loading-progress"></div>
+    </div>
+    
+    <script>
+        
+        $(document).ready(function() {
+            var progress = 0;
+            var interval = setInterval(function() {
+                progress += .5; // Increment by 10%
+                $('.loading-progress').css('width', progress + '%');
+                if(progress >= 300) { clearInterval(interval); 
+                    window.location.href = 'home.html';
+                }
+            }, 10); 
+        });
+    </script>
+</body>
+</html>
