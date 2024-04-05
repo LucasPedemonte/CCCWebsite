@@ -1,11 +1,17 @@
-.tab {
-    background-color: #21CB7A;
+html {
+    background-color: black;
 }
+
+.tab {
+    background-color: black;
+}
+
 .container {
     margin-top: 20px;
-    background-color: #21CB7A;
+    background-color: black;
     width: 500px;
     font-family: courier;
+    color: #21CB7A;
 }
 
 .container ul {
@@ -13,7 +19,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
     position: fixed;
     top: 10px;
     width: 100%;
@@ -22,35 +27,41 @@
 li {
     display: inline;
     float: left;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-top: 1px solid black;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
 }
 
 a {
     display: block;
     padding: 8px;
-    background-color: #21CB7A;
     font-family: courier;
+    color: #21CB7A;
+    text-decoration: none;
 }
 
 li a {
     display: block;
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #21CB7A;
 }
 
 li a:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 li:last-child {
-    border-right: none;
+    border-right: 1px white;
 }
 
 .title {
-    height: 10px.
+    height: 10px;
+}
+
+.navbar {
+    text-align: left;
 }
