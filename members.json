@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Shreyhan",
+        "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!",
+        "contactPhone": "+1 (999) 999 - 9999",
+        "contactEmail": "blah@blah.blah",
+        "picture": "./Case_CS.png",
+        "rightsidething" : "so this is what shows up when you click !!!!yep!!!!!! Shreyhan"
+    },
+    {
+        "name": "Lucas",
+        "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!",
+        "contactPhone": "+1 (999) 999 - 9999",
+        "contactEmail": "blah@blah.blah",
+        "picture": "./Case_CS.png",
+        "rightsidething" : "so this is what shows up when you click !!!!yep      Lucas"
+    },
+    {
+        "name": "Cameron",
+        "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!",
+        "contactPhone": "+1 (999) 999 - 9999",
+        "contactEmail": "blah@blah.blah",
+        "picture": "./Case_CS.png",
+        "rightsidething" : "so this is what shows up when you click !!!!yep!@IEJ@OI Cameron"
+    },
+    {
+        "name": "Olivia",
+        "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam asperiores voluptatem dolorum fugiat nostrum sapiente tempora. Molestiae a, obcaecati quas quisquam temporibus, ipsum harum perspiciatis, architecto ducimus excepturi ratione voluptas!",
+        "contactPhone": "+1 (999) 999 - 9999",
+        "contactEmail": "blah@blah.blah",
+        "picture": "./Case_CS.png",
+        "rightsidething" : "so this is what shows up when you click !!!!yepewfjioewjfioej Olivia"
+    }
+]
