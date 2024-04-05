@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Collaborative Coding Club</title>
+    <link rel="stylesheet" href="Login2.css" />
+    <style>
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      .email-registration {
+        text-align: center;
+        color: #21cb7a; /* Green text */
+        animation: fadeIn 2s ease-in-out;
+        font-size: 20px;
+      }
+
+      .email-link {
+        color: #21cb7a; /* Green text */
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .email-link:hover {
+        color: #ffffff; /* White text on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <p class="email-registration">
+        To register, please email us at
+        <a href="mailto:lap127@case.edu" class="email-link">lap127@case.edu</a>
+      </p>
+      <button class="submit-btn" onclick="location.href='login.html'">
+        Go Back
+      </button>
+    </div>
+  </body>
+</html>
