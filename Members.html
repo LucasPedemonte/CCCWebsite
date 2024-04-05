@@ -38,6 +38,11 @@
                     <span id="Contact">${member.contactPhone} &emsp; ${member.contactEmail}</span>
                 `;
                 memberList.appendChild(li);
+
+                li.addEventListener('click', function() {
+                    document.getElementById('right').innerText = member.rightsidething;
+                    document.getElementById('right').style.display = 'block';
+                });
             });
         })
         .catch(err => console.error(err));
@@ -61,8 +66,19 @@
     #left {
         background-color: rgba(0, 0, 0, 0.118);
         position: fixed;
-        width: 50%;
-        float: left;
+        width: 45%;
+        left: 1%;
+        height: 80%;
+        z-index: 1010101010;
+        overflow-y: auto; 
+    }
+
+    #right {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.118);
+        position: fixed;
+        width: 45%;
+        right: 1%;
         height: 80%;
         z-index: 1010101010;
         overflow-y: auto; 
@@ -118,6 +134,10 @@
             <ul id="memberList">
                 <!-- members show up here -->
             </ul>
+        </div>
+
+        <div id="right">
+            <!-- Something  shows up -->
         </div>
     </div>
 </body>
