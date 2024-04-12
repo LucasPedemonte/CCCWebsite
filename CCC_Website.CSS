@@ -1,0 +1,66 @@
+body {
+    color-scheme: dark;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    color: #000000;
+    background-image: url("CCCBackground.png");
+    background-color: slategray;
+    font-family: "Lucida Console";
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+header {
+    background-color: #333;
+    font-family: "Lucida Console";
+    color: #21CB7A;
+    padding: 20px;
+    text-align: center;
+}
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a {
+    display: block;
+    color: #21CB7A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+li a:hover {
+    background-color: #111;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+    background-color: slategray;
+}
+p {
+    line-height: 1.6;
+    text-align: center;
+}
+#projectlist {
+    background-color: slategray;
+}
+ul {
+    margin: 20px 0;
+}
+li{   
+    margin: 20px 0;
+}
+h3{
+    background-color: slategray;
+}
