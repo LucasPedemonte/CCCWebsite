@@ -92,3 +92,10 @@ a {
     color: purple; /* Change 'red' to any color you desire */
     text-decoration: none; /* Optional: remove underline */
 }
+
+#projectlist {
+    margin-top: 0px; /* Top margin */
+    margin-right: 150px; /* Right margin */
+    margin-bottom: 0px; /* Bottom margin */
+    margin-left: 150px; /* Left margin */
+}
