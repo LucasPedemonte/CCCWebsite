@@ -5,6 +5,8 @@ body {
     margin: 0;
     color: #000000;
     background-image: url("CCCBackground.png");
+    background-position: center;
+    background-size: cover;
     background-color: slategray;
     font-family: "Lucida Console";
     font-size: 16px;
@@ -91,4 +93,11 @@ li{   margin: 0px 0;}
 a {
     color: purple; /* Change 'red' to any color you desire */
     text-decoration: none; /* Optional: remove underline */
+}
+
+#projectlist {
+    margin-top: 0px; /* Top margin */
+    margin-right: 150px; /* Right margin */
+    margin-bottom: 0px; /* Bottom margin */
+    margin-left: 150px; /* Left margin */
 }
