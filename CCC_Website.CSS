@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     word-wrap: break-word;
+    background-repeat: no-repeat;
 }
 header {
     background-color: #333;
@@ -83,39 +84,11 @@ li{   margin: 0px 0;}
     display: inline-block; /* Display tabs in a line */
     margin-right: 10px; /* Add some space between tabs */
 }
-   
+    
 .tab-container ul li:last-child {
     margin-right: 0; /* Remove margin for the last tab */
 }
 a {
     color: purple; /* Change 'red' to any color you desire */
     text-decoration: none; /* Optional: remove underline */
-}
-      
-/* Style for the container */
-.tab-container {
-    text-align: center; /* Center align the tabs */
-}
-    
-/* Style for the tabs */
-.tab-container ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-    
-.tab-container ul li {
-    display: inline-block; /* Display tabs in a line */
-    margin-right: 10px; /* Add some space between tabs */
-}
-    
-.tab-container ul li:last-child {
-    margin-right: 0; /* Remove margin for the last tab */
-}
-
-#projectlist {
-    margin-right: 150px;
-    margin-left: 150px;
-    margin-top: 0;
-    padding: 0px;
 }
