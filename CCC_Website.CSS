@@ -3,11 +3,11 @@ body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     margin: 0;
-    color: #000000;
+    color: #21CB7A;
     background-image: url("CCCBackground.png");
     background-position: center;
     background-size: cover;
-    background-color: slategray;
+    background-color: #333;
     font-family: "Lucida Console";
     font-size: 16px;
     line-height: 1.5;
@@ -50,14 +50,14 @@ h1 {
     padding: 0px auto;
     text-align: center;
     align-items: center;
-    background-color: slategray;
+    background-color: #333;
 }
 p {
     line-height: 1.6;
     text-align: center;
 }
 #projectlist {
-    background-color: slategray;
+    background-color: #333;
 }
 ul {
     margin: 20px 0;
@@ -66,7 +66,7 @@ li{
     margin: 20px 0;
 }
 h3{
-    background-color: slategray;
+    background-color: #333;
 }
 
 li{   margin: 0px 0;}
@@ -91,7 +91,7 @@ li{   margin: 0px 0;}
     margin-right: 0; /* Remove margin for the last tab */
 }
 a {
-    color: purple; /* Change 'red' to any color you desire */
+    color: pink; /* Change 'red' to any color you desire */
     text-decoration: none; /* Optional: remove underline */
 }
 
