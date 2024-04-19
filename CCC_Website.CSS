@@ -5,6 +5,8 @@ body {
     margin: 0;
     color: #000000;
     background-image: url("CCCBackground.png");
+    background-position: center;
+    background-size: cover;
     background-color: slategray;
     font-family: "Lucida Console";
     font-size: 16px;
